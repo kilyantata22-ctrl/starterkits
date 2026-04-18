@@ -1,0 +1,22 @@
+{
+    "name": "techshop/app",
+    "description": "TechShop — boutique en ligne de matériel informatique",
+    "type": "project",
+    "require-dev": {
+        "phpunit/phpunit": "^11.0",
+        "behat/behat": "^3.30"
+    },
+    "autoload": {
+        "psr-4": {
+            "TechShop\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "TechShop\\Tests\\": "tests/"
+        }
+    },
+    "config": {
+        "optimize-autoloader": true
+    }
+}
